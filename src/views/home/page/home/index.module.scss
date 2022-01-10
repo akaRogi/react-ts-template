@@ -1,0 +1,31 @@
+.home{
+  background-color: #1e1f21;
+  .newArticle{
+    .list{
+      width: 1200px;
+      margin: 0 auto;
+      padding: 0 10px;
+    }
+    .portfolio{
+        background: #25272b;
+    }
+    .photoAlbum{
+      width: 1200px;
+      margin: 0 auto;
+    }
+    .btn{
+      width: max-content;
+      font-size: 18px;
+      padding: 70px 0 120px;
+      margin: 0 auto;
+    }
+    @media screen and (max-width: 600px) {
+      .list{
+        width: 100%;
+      }
+      .photoAlbum{
+        width: 100%;
+      }
+    }
+  }
+}
