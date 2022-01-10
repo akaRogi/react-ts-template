@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from './index.module.less'
 
 function App() {
     return (
-        <div className="App">
+        <div className={styles.color}>
             321321
         </div>
     );
